@@ -21,9 +21,9 @@ SafeCampus is a digital platform to report harassment incidents, track report st
    cd safecampus
 
 2. Navigate to the backend folder and install dependencies:
-
-cd backend
-npm install
+   '''bash
+      cd backend
+      npm install
 
 
 5. Set up environment variables:
