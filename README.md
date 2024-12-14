@@ -68,8 +68,53 @@ Anonymous Reporting: Users can choose to submit reports anonymously for added pr
      "details": "Details of the incident...",
      "anonymous": true
    }
- **Response**:
-  ```json
-  {
+    ```
+   **Response**:
+    ```json
+   {
      "reportId": "RPT-1234"
-  }
+   }
+2. **Track a Report**
+   **GET** `/track-report/:id`  
+
+   **URL Parameter**:  
+   - `id`: The report ID (e.g., RPT-1234)  
+
+   **Response**:
+   ```json
+   {
+     "status": "Pending Review"
+   }
+3. **Track a Report**
+   **POST** `/tsend-message/:id`  
+
+   **URL Parameter**:  
+   - `id`: The report ID (e.g., RPT-1234)  
+
+   **Request Body**:
+   ```json
+   {
+     "message": "I need help with my report"
+   }
+   ```
+   **Reponse**:
+   ```json
+   {
+    "success": true
+   }
+   
+### Team Members
+- Jonathan Pulipaka : Developer,Project Lead
+- Harsha Manchala : Developer
+- Jyothi Badana : UI/UX Designer
+- Geetha Chilla : Backend Developer
+  
+###Future Ideas and Potential Advancements
+- **Improved Security**: Implement encryption for sensitive data, ensuring all reports and messages are protected.
+- **Admin Panel**: Create an admin interface for better management of reports, users, and chats.
+- **Real-time Chat**: Integrate WebSockets for real-time communication within the app for faster responses and support.
+- **AI Integration in Support Chat**: Integrate AI-powered chatbots to assist users with instant support and provide automated responses for frequently asked questions.
+- **Mobile App Improvements**: Expand the app to support iOS, and implement a more interactive UI with notifications for new messages or status updates.
+- **Integration with Police Stations**: Provide users with an option to report incidents directly to authorities, with location data and incident details pre-filled.
+
+
