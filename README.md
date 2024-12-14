@@ -157,14 +157,14 @@ To configure the environment variables for the project, follow these steps:
 5. **Start the Backend Server**:
 After setting up the `.env` file and installing dependencies, you can start the backend server by running:
 
-```bash
-npm start
-```
+   ```bash
+   npm start
+   ```
 **Note:** Ensure that you don't commit the `.env` file to version control. Add it to your `.gitignore` file to keep sensitive information safe.
 
-```css
-# .gitignore
-.env
+   ```css
+    # .gitignore
+     .env
 
 
 
