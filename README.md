@@ -109,7 +109,7 @@ Anonymous Reporting: Users can choose to submit reports anonymously for added pr
 - Jyothi Badana : UI/UX Designer
 - Geetha Chilla : Backend Developer
   
-###Future Ideas and Potential Advancements
+###  Future Ideas and Potential Advancements
 - **Improved Security**: Implement encryption for sensitive data, ensuring all reports and messages are protected.
 - **Admin Panel**: Create an admin interface for better management of reports, users, and chats.
 - **Real-time Chat**: Integrate WebSockets for real-time communication within the app for faster responses and support.
