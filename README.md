@@ -117,4 +117,54 @@ Anonymous Reporting: Users can choose to submit reports anonymously for added pr
 - **Mobile App Improvements**: Expand the app to support iOS, and implement a more interactive UI with notifications for new messages or status updates.
 - **Integration with Police Stations**: Provide users with an option to report incidents directly to authorities, with location data and incident details pre-filled.
 
+### Setup and Configuration of `.env` File
+
+To configure the environment variables for the project, follow these steps:
+
+1. **Create a `.env` File**:  
+   In the root directory of your project, create a new file named `.env`.
+
+2. **Add Environment Variables**:  
+   Open the `.env` file and add the following environment variables, updating the values as needed:
+
+   ```bash
+   # Backend Configuration
+   BACKEND_URL=https://safecampus-backend.onrender.com
+   PORT=3000  # Default Port for Backend
+
+   # MongoDB (Database Configuration)
+   MONGO_URI=mongodb+srv://safecampus:safecampus1234@cluster0.mongodb.net/safecampus?retryWrites=true&w=majority
+   MONGO_DB_NAME=safecampus
+   MONGO_USER=safecampus
+   MONGO_PASSWORD=safecampus1234
+
+   # Email Configuration
+   EMAIL_HOST=smtp.gmail.com
+   EMAIL_PORT=587
+
+   # Frontend Configuration
+   REACT_APP_BACKEND_URL=https://safecampus-backend.onrender.com  # Backend URL
+   ```
+3. **Save the `.env` File**:  
+   Save the `.env` file in the root directory of your project.
+
+3. **Install Dependencies**:  
+   Run the following command to install the necessary dependencies for the backend:
+   
+   ```bash
+   npm install
+   ```
+4. **Start the Backend Server**:
+After setting up the `.env` file and installing dependencies, you can start the backend server by running:
+
+```bash
+npm start
+```
+**Note:** Ensure that you don't commit the `.env` file to version control. Add it to your `.gitignore` file to keep sensitive information safe.
+
+```css
+# .gitignore
+.env
+
+
 
