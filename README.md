@@ -17,7 +17,7 @@ SafeCampus is a digital platform to report harassment incidents, track report st
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/safecampus.git
+   git clone https://github.com/jonathanJO/safecampus.git
    cd safecampus
 
 2. Navigate to the backend folder and install dependencies:
