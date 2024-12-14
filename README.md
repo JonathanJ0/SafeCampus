@@ -44,10 +44,10 @@ To run this project locally, follow the instructions below:
    npm start
 6. The backend will now be running at (https://safecampus-backend.onrender.com/)
 ## Steps for Android App
- Open the project in Android Studio.
- Sync the project with Gradle files.
- Set up an Android device or emulator.
- Run the app on your device or emulator.
+ - Open the project in Android Studio.
+ - Sync the project with Gradle files.
+ - Set up an Android device or emulator.
+ - Run the app on your device or emulator.
 
 ### Key Features
 Report Submission: Users can submit reports regarding various forms of harassment (verbal abuse, sexual harassment, bullying, and cyber harassment).
