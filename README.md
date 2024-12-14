@@ -104,7 +104,7 @@ Anonymous Reporting: Users can choose to submit reports anonymously for added pr
    }
    
 ### Team Members
-- Jonathan Pulipaka : Developer,Project Lead
+- Jonathan Pulipaka :Project Lead
 - Harsha Manchala : Developer
 - Jyothi Badana : UI/UX Designer
 - Geetha Chilla : Backend Developer
