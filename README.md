@@ -28,7 +28,7 @@ To run this project locally, follow the instructions below:
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account (for the database)
 - [Android Studio](https://developer.android.com/studio) (for Android app development)
 
-### Steps for Backend
+## Steps for Backend
 1. Clone the repository:
    ```bash
    git clone https://github.com/jonathanJ0/safecampus.git
@@ -60,7 +60,7 @@ Anonymous Reporting: Users can choose to submit reports anonymously for added pr
 1. **Submit a Report**  
    **POST** `/submit-report`  
    **Request Body**:
-   ```json
+    ```json
    {
      "type": "verbal",
      "location": "Campus A",
@@ -68,9 +68,8 @@ Anonymous Reporting: Users can choose to submit reports anonymously for added pr
      "details": "Details of the incident...",
      "anonymous": true
    }
- **Request**:
-```json
-{
-  "reportId": "RPT-1234"
-}
-
+ **Response**:
+  ```json
+  {
+     "reportId": "RPT-1234"
+  }
