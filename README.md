@@ -145,16 +145,16 @@ To configure the environment variables for the project, follow these steps:
    # Frontend Configuration
    REACT_APP_BACKEND_URL=https://safecampus-backend.onrender.com  # Backend URL
    ```
-3. **Save the `.env` File**:  
+3. **Save**:  
    Save the `.env` file in the root directory of your project.
 
-3. **Install Dependencies**:  
+4. **Install Dependencies**:  
    Run the following command to install the necessary dependencies for the backend:
    
    ```bash
    npm install
    ```
-4. **Start the Backend Server**:
+5. **Start the Backend Server**:
 After setting up the `.env` file and installing dependencies, you can start the backend server by running:
 
 ```bash
